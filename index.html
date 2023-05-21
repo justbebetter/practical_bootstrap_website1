@@ -38,19 +38,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#">HOME</a>
+                <a class="nav-link" href="#top">HOME</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">SERVICES</a>
+                <a class="nav-link" href="#services">SERVICES</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">ABOUT US</a>
+                <a class="nav-link" href="#about-us">ABOUT US</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">TESTIMONIALS</a>
+                <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
+                <a class="nav-link" href="#footer">CONTACT</a>
               </li>
             </ul>
           </div>
@@ -64,7 +64,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <p class="title">A BETTER VERSION OF MYSELF</p>
+            <p class="main-title">A BETTER VERSION OF MYSELF</p>
             <p>Do not compare yourself to anybody, you are unique and unstoppable to reach your goals. Everything starts from number zero.</p>
             <a href="#"><img src="images/play.png" class="play-btn">Explore Further</a>
           </div>
@@ -81,7 +81,7 @@
     <!-- SERVICES Section -->
     <section id="services">
       <div class="container  text-center">
-        <h1 class ="service-title">WHAT WE DO?</h1>
+        <h1 class ="title">WHAT WE DO?</h1>
         <div class="row">
           <div class="col-md-4 service">
             <img src="images/service1.png" class="services-img">
@@ -104,11 +104,102 @@
     </section>
     <!-- END ERVICES Section -->
 
+    <!-- ABOUT US Section -->
+    <section id="about-us">
+      <div class="container">
+        <h1 class="title text-center">Why choose us?</h1>
+        <div class="row">
+          <div class="col-md-6 about-us">
+            <p class="about-title">Why we're different</p>
+            <ul>
+              <li>Understand our client's business goal first</li>
+              <li>Believe in doingb business with honey</li>
+              <li>We deliver on time</li>
+              <li>We create winning content strategy</li>
+              <li>We protect your online reputation</li>
+              <li>Believe in doingb business with honey</li>
+              <li>Understand our client's business goal first</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <img src="images/network.png" class="img-fluid" >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END ABOUT US Section -->
 
-  
+    <!-- TESTIMONIALS Section -->
+    <section id="testimonials">
+      <div class="container">
+        <h1 class="title text-center">WHAT CLIENTS SAY?</h1>
+        <div class="row offset-1">
+          <div class="col-md-5 testimonials">
+            <p> Public speaking has many purposes, but usually mixes teaching, persuasion, and entertaining</p>
+            <img src="images/user1.jpg">
+            <p class="user-details"><b>Lucy Truong</b><br> Co-founder at company</p>
+          </div>
+          <div class="col-md-5 testimonials">
+            <p> Public speaking has many purposes, but usually mixes teaching, persuasion, and entertaining</p>
+            <img src="images/user2.jpg">
+            <p class="user-details"><b>David Truan</b><br> Founder at company</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TESTIMONIALS Section -->
+
+    <!-- SOCIAL MEDIA Section -->
+      <section id="social-media">
+        <div class="container text-center">
+          <p>FIND US ON SOCIAL MEDIA</p>
+            <div class="social-icons">
+              <a href="#"><img src="images/facebook-icon.png"></a>
+              <a href="#"><img src="images/instagram-icon.png"></a>
+              <a href="#"><img src="images/linkedin-icon.png"></a>
+              <a href="#"><img src="images/twitter-icon.png"></a>
+              <a href="#"><img src="images/snapchat-icon.png"></a>
+              <a href="#"><img src="images/whatsapp-icon.png"></a>
+            </div>
+        </div>
+      </section>
+    <!-- END SOCIAL MEDIA Section -->
+
+    <!-- FOOTER Section -->
+      <section id="footer">
+        <img src="images/wave2.png" class="footer-img">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 footer-box">
+              <img src="images/demo-logo.png" >
+              <p> Public speaking has many purposes, but usually mixes teaching, persuasion, and entertaining</p>
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>CONTACT US</b></p>
+              <p> <i class="fa fa-map-marker"></i> World Trade Center</p>
+              <p> <i class="fa fa-phone"></i>+84 702662251</p>
+              <p> <i class="fa fa-envelope"></i>davidtranit110@gmail.com</p>
+
+            </div>
+            <div class="col-md-4 footer-box">
+              <p><b>EXPLORE ME</b></p>
+              <input type="email" class="form-control" placeholder="Your Email">
+              <button type="button" class="btn btn-primary">Explore</button>
+            </div>
+            <hr>
+            <p class="copyright"> Website created by David Tran</p>
+          </div>
+        </div>
+      </section>
+    <!-- END FOOTER Section -->
+
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
    <!-- ---JS--- -->
    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <script src="smooth-scroll.js"></script>
   </body>
 </html>
